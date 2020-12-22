@@ -1,0 +1,77 @@
+.tasty {
+    height: 1125px;
+    padding: 50px 135px;
+    background-color: #f6f8fa;
+}
+
+.tasty .container {
+    background-color: #fff;
+    padding: 84px 150px 30px 128px;
+}
+
+.tasty .container h3 {
+    text-align: center;
+    width: 164px;
+    height: 64px;
+    background: #FAFF00;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 900;
+    color: #fff;
+    line-height: 64px;
+    margin: 0 auto; 
+}
+
+.tasty .container h2 {
+    font-size: 64px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.tasty .container .subtitle {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 300;
+}
+
+.tasty .container .burger {
+    height: 300px;
+    width: 285px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.tasty .container .burger .burger_name {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.tasty .container .burger .burger_img img {
+    width: 240px;
+    height: 190px;
+}
+
+.tasty .container .burger .burger_descr {
+    font-size: 13px;
+    font-weight: 300;
+    width: 180px;
+    margin: 10px auto;
+}
+
+.tasty .container .full_menu {
+    width: 360px;
+    height: 50px;
+    background-color: #000000;
+    border: 2px solid #FAFF00;
+    color: rgba(250, 255, 0, 1);
+    font-size: 16px;   
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+.tasty .container .full_menu:hover {
+    background-color: rgba(0,0,0, 0.8);
+}

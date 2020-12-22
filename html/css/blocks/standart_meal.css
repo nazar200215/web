@@ -1,0 +1,92 @@
+.standart {
+    width: 100%;
+    height: 370px;
+}
+
+.standart .standart_descr {
+    margin: 40px 0 0 350px;
+}
+
+.standart .standart_descr .new {
+    width: 43px;
+    height: 20px;
+    background-color: #000000;
+    font-size: 11px;
+    font-weight: 600;
+    color: #FAFF00;
+    text-align: center;
+    line-height: 20px;
+}
+
+.standart .standart_descr .name {
+    font-weight: 800;
+    width: 420px;
+    font-size: 36px;
+    color: #fff;
+    margin-top: 18px;
+}
+
+.standart .standart_descr .descr {
+    font-weight: 500;
+    font-size: 12px;
+    color: #AEA7A4;
+    margin-top: 18px;
+    width: 360px;
+}
+
+.standart .standart_descr .price {
+    font-weight: 800;
+    font-size: 36px;
+    color: #fff;
+    margin-top: 18px;
+}
+
+.standart .standart_descr .price span {
+    color: #7a7877;
+    text-decoration: line-through;
+}
+
+.standart .standart_descr .order {
+    margin-top: 22px;
+    width: 80px;
+    height: 25px;
+    border: 1px solid #FFFFFF;
+    font-weight: 500;
+    font-size: 10px;
+    color:rgba(255, 255, 255, 1);
+    background-color:rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+.standart .standart_descr .order:hover {
+    background-color:rgb(255, 255, 255);
+    color: #000;
+}
+
+.standart:first-child {
+    background: url(../../img/standart_meal/first_standart.png) center top / cover no-repeat;
+}
+
+.standart:nth-child(2) {
+    background: url(../../img/standart_meal/umami_burger.png) center top / cover no-repeat;
+}
+
+.standart:nth-child(3) {
+    background: url(../../img/standart_meal/Keto-Chocolate-Milkshake1.png) center top / cover no-repeat;
+}
+
+.standart:nth-child(4) {
+    background: url(../../img/standart_meal/820x01.png) center top / cover no-repeat;
+}
+
+.standart:nth-child(5) {
+    background: url(../../img/standart_meal/Bigstock_2149422551.png) center top / cover no-repeat;
+}
+
+.standart:nth-child(6) {
+    background: url(../../img/standart_meal/1480535239-gettyimages-1841302851.png) center top / cover no-repeat;
+}
+
+.standart:nth-child(2n) .standart_descr  {
+    margin-left: 30px;
+}

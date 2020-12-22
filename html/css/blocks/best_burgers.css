@@ -1,0 +1,40 @@
+.best_burgers {
+    height: 690px;
+    padding: 70px 0 25px 0;
+    background: url(../../img/best_burgers/bgBestBurgers.png) center top / cover no-repeat;
+    background-blend-mode: overlay;
+    background-color: #353237;
+}
+
+.best_burgers .banner .description .subtitle {
+    font-size: 18px;
+    font-weight: 800;
+    width: 260px;
+    background-color: #FAFF00;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.best_burgers .banner .description h1 {
+    font-size: 60px;
+    color: #fff;
+    margin-top: 30px;
+    width: 500px;
+    font-weight: 600;
+}
+
+.best_burgers .banner .description button {
+    width: 173px;
+    height: 68px;
+    background: #000000;
+    border: 2px solid #FAFF00;
+    border-radius: 20px;
+    color: #FAFF00;
+    margin-top: 30px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.best_burgers .banner .description button:hover {
+    background-color: rgba(0,0,0, 0.6);
+}

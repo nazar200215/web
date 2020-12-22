@@ -1,0 +1,59 @@
+.footer .call_us {
+    background-color: #232323;
+    padding: 34px 50px 49px 250px;
+}
+
+.footer .call_us h6 {
+    width: 164px;
+    height: 32px;
+    background-color: rgba(250, 255, 0, 0.8);
+    color: #fff;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.footer .call_us .phone {
+    color: #fff;
+    font-weight: 800;
+    font-size: 36px;
+    margin-top: 28px;
+}
+
+.footer .flex_wrapper .working_time, .location span {
+    display: block;
+    width: 210px;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(174, 167, 164, 1);
+    line-height: 22px;
+}
+
+.footer .map img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer .footer_download {
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.footer .ft_btn_download {
+    width: 200px;
+    height: 50px;
+    background-color: #FAFF00;
+    border: 1px solid #000000;
+    font-weight: 500;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.footer .ft_btn_download:hover {
+    transform: scale(1.1);
+}
+
+.footer .download_mobile {
+    display: none;
+}

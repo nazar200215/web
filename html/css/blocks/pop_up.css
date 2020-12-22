@@ -1,0 +1,74 @@
+.pop_up {
+    display: none;
+    width: 500px;
+    height: 400px;
+    background-color: #feffd2;
+    padding: 5px 36px;
+    text-align: center;
+    z-index: 100;
+    position: fixed;
+    border-radius: 20px;
+    top: 170px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pop_up .pop_up_close {
+    cursor: pointer;
+    text-align: right;
+}
+
+.pop_up h2 {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 800;
+    width: 400px;
+}
+
+.pop_up h2 span {
+    display: block;
+    font-weight: 600;
+}
+
+.pop_up p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.pop_up form input {
+    width: 360px;
+    height: 50px;
+    background-color:rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 15px;
+    color: #fff;
+    border: none;
+}
+
+.pop_up form button {
+    width: 360px;
+    height: 50px;
+    background-color: #FAFF00;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.pop_up p {
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.pop_up .agree {
+    display: inline;
+}
+
+.pop_up .agree a {
+    font-size: 10px;
+    font-weight: 500;
+}

@@ -1,0 +1,281 @@
+@media (max-width: 320px) {
+    .container {
+        width: 0 !important;
+        margin: 0 !important;
+    }
+
+    .best_burgers {
+        padding: 10px;
+    }
+
+    .header .logo a img {
+        width: 80px;
+    }
+
+    .header .title {
+        font-size: 16px;
+        margin-right: 50px;
+    }
+
+    .header .navigation {
+        display: none;
+    }
+
+    .header .flex_wrapper {
+        width: 300px;
+    }
+
+    .header .menu_mobile {
+        display: block;
+    }
+
+    .best_burgers {
+        height: 520px;
+    }
+
+    .best_burgers .banner .description {
+        position: relative;
+        margin-top: 65px;
+    }
+
+    .best_burgers .banner .description .subtitle {
+        font-size: 15px;
+        width: 205px;
+    }
+
+    .best_burgers .banner .description h1 {
+        width: 295px;
+        font-size: 36px;
+    }
+
+    .best_burgers .banner .description button {
+        width: 120px;
+        height: 40px;
+    }
+
+    .banner .img img {
+        position: absolute;
+        top: 290px;
+        left: 135px;
+        width: 175px;
+    }
+
+    .cards {
+        height: 100%;
+        padding: 50px 0 20px 0;
+    }
+
+    .cards .flex_wrapper_cards {
+        width: 100%;
+        display: block;
+    }
+
+    .cards .card {
+        margin: 0 auto 40px;
+        width: 240px;
+        height: 260px;
+    }
+
+    .cards .card img {
+        height: 140px;
+    }
+
+    .cards .card .show_more {
+        margin: 10px auto;
+    }
+
+    .tasty {
+        height: 100%;
+        padding: 50px 45px;
+    }
+
+    .tasty .container {
+        padding: 0;
+    }
+
+    .tasty .container h3 {
+        font-size: 12px;
+        width: 150px;
+        height: 40px;
+        line-height: 40px;
+        width: 230px;
+    }
+
+    .tasty .container h2 {
+        margin-top: 20px;
+        font-size: 28px;
+        width: 230px;
+    }
+
+    .tasty .container .subtitle {
+        width: 230px;
+        font-size: 12px;
+    }
+
+    .tasty .container .full_menu { 
+        width: 230px;
+        height: 45px;
+        font-size: 15px;
+    }
+
+
+    .grid {
+        grid-template-columns: 1fr;
+
+    }
+
+    .standart {
+        width: 320px;
+        height: 350px;
+    }
+
+    .standart .standart_descr {
+        margin: 0;
+        padding: 50px 0 0 15px;
+    }
+
+    .standart .standart_descr .name {
+        font-size: 24px;
+        width: 300px;
+    }
+
+    .standart .standart_descr .descr {
+        width: 285px;
+        font-size: 11px;
+    }
+
+    .standart:nth-child(2n) .standart_descr  {
+        margin-left: 0
+    }
+
+    .slider_burger {
+        height: 415px;
+    }
+
+    .slider_burger .slider__btn {
+        padding: 0 10px;
+    }
+
+    .slider_burger .slide img {
+        height: 120px;
+        width: 150px;
+    }
+
+    .flex_wrapper_slide {
+        width: 300px;
+        justify-content: center;
+    }
+
+    .slider_burger .slide .slide_info h5 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .slider_burger .slide .slide_info .descr {
+        font-size: 11px;
+        width: 190px;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .slider_burger .slide .slide_info .greate__choise {
+        margin: 0 auto;
+    }
+
+    .slider_burger .slide .slide_info .slide_order {
+        width: 140px;
+        height: 30px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .slider_burger .slider__btn img {
+        height: 35px;
+    }
+
+    .footer {
+        position: relative;
+    }
+
+    .footer .call_us {
+        padding: 45px 0 0 15px;
+        order: 1;
+        height: 355px;
+    }
+
+    .footer .call_us h6 {
+        width: 100px;
+        height: 25px;
+        font-size: 10px;
+        line-height: 25px;
+    }
+
+    .footer .call_us .phone {
+        font-size: 20px;
+    }
+
+    .footer img {
+        width: 40px;
+    }
+
+    .flex_wrapper_footer {
+        margin-top: 25px;
+        width: 270px;
+    }
+
+    .flex_wrapper_ft_social {
+        width: 105px;
+        margin-top: 20px;
+    } 
+
+    .flex_wrapper_ft_social img {
+        width: 20px;
+    }
+    
+    .flex_wrapper_ft_download {
+        display: none;
+    }
+
+    .footer .download_mobile {
+        display: block;
+    }
+
+    .download_mobile button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 180px;
+        height: 60px;
+        background-color: #FAFF00;
+        border: 1px solid black;
+        border-radius: 20px 0 0 0;
+        font-weight: 500;
+        font-size: 14px;
+        cursor: pointer;
+        font-weight: 500;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .pop_up {
+        height: 300px;
+        width: 270px;
+        top: 130px;
+    }
+
+    .pop_up h2 {
+        font-size: 25px;
+        width: auto;
+    }
+
+    .pop_up form input, .pop_up form button {
+        width: 100%;
+        height: 40px;
+    }
+
+    .pop_up p {
+        font-size: 10px;
+    }
+}
+
